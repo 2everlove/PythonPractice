@@ -1,2 +1,2 @@
 # PythonPractice
-Lernig Python for Automation of tasks
+Lernig Python for RPA(Robotic Process Automation : Automation of tasks)
