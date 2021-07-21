@@ -1,2 +1,2 @@
 # PythonPractice
- Lernig Python
+Automation of tasks
