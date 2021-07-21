@@ -1,2 +1,2 @@
 # PythonPractice
-Automation of tasks
+Goal : Automation of tasks
