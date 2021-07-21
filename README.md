@@ -1,2 +1,2 @@
 # PythonPractice
-Goal : Automation of tasks
+Lernig Python for Automation of tasks
