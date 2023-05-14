@@ -89,3 +89,28 @@ my_str = my_str[:my_str.index(".")]
 password = my_str[:3]+str(len(my_str))+str(my_str.count("e"))+"!"
 print("{0}의 비밀번호는 {1}입니다".format(url, password))
 print(f"{url}의 비밀번호는 {password}입니다")
+
+#slicing
+jumin = "990120-1234567"
+print("性別："+jumin[7])
+print("年："+jumin[7])
+print("月："+jumin[2:4]) #0から２直前
+print("日："+jumin[4:6])
+
+print("生年月日："+jumin[:6]) #最初から６直前
+print("後7桁数："+jumin[7:]) ##7から最後
+print("後7桁数(後ろから)："+jumin[-7:]) ##7から最後
+
+#文字列処理関数
+python = "Python is Amazing"
+print(python.lower())
+print(python.upper())
+print(python[0].isupper())
+print(len(python))
+print(python.replace("Python", "Java"))
+
+index = python.index("n")
+print(index)
+try:
+    python.index("Java") 
+except : print("Error")
